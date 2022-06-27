@@ -7,7 +7,7 @@ date: 2021-12-06
 #citation: '<b>Quantao Yang</b>, Johannes Andreas Stork, and Todor Stoyanov. <i>NeurIPS 2021 Workshop on Deployable Decision Making in Embodied Systems (DDM)</i>.'
 ---
 
-[[PDF]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9568848)
+[[PDF]](http://oru.diva-portal.org/smash/get/diva2:1620121/FULLTEXT01.pdf)
 
 ## Abstract
 Reinforcement Learning (RL) has the potential of solving complex continuous
