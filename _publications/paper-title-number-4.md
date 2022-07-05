@@ -7,6 +7,7 @@ date: 2022-07-10
 #citation: '<b>Quantao Yang</b>, Johannes Andreas Stork, and Todor Stoyanov. <i>NeurIPS 2021 Workshop on Deployable Decision Making in Embodied Systems (DDM)</i>.'
 ---
 
+[[PDF]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9812508)
 
 
 ## Abstract
