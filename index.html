@@ -6,8 +6,7 @@
   <title>Quantao Yang — Robot Learning Researcher</title>
   <meta name="description" content="Quantao Yang is a postdoctoral researcher at KTH working on robot learning, manipulation, and intelligent agents for real-world environments.">
   <meta name="author" content="Quantao Yang">
-  <meta name="theme-color" content="#f6f7f4" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#111513" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#ffffff">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Quantao Yang — Robot Learning Researcher">
   <meta property="og:description" content="Research in robot learning, manipulation, and intelligent agents for real-world environments.">
@@ -17,6 +16,9 @@
   <link rel="canonical" href="https://yquantao.github.io/">
   <link rel="icon" href="images/favicon/favicon.ico" sizes="any">
   <link rel="preload" href="images/quantao.jpeg" as="image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&amp;display=swap">
   <link rel="stylesheet" href="stylesheet.css">
   <script type="application/ld+json">
   {"@context":"https://schema.org","@type":"Person","name":"Quantao Yang","url":"https://yquantao.github.io/","image":"https://yquantao.github.io/images/quantao.jpeg","jobTitle":"Postdoctoral Researcher","affiliation":{"@type":"Organization","name":"KTH Royal Institute of Technology"},"sameAs":["https://scholar.google.com/citations?user=8UrHg8AAAAAJ&hl=en","https://x.com/Qt_Yeung","https://github.com/yquantao"],"knowsAbout":["Robot learning","Robot manipulation","Imitation learning","Reinforcement learning"]}
@@ -24,72 +26,140 @@
 </head>
 <body>
   <a class="skip-link" href="#main-content">Skip to content</a>
-  <main id="main-content">
-    <section class="hero container" id="top" aria-labelledby="hero-title">
-      <figure class="portrait-wrap">
-        <img class="portrait" src="images/quantao.jpeg" width="200" height="200" alt="Portrait of Quantao Yang">
-      </figure>
-      <div class="hero-copy">
-        <h1 id="hero-title">Quantao Yang</h1>
+
+  <header class="site-header container">
+    <nav class="site-nav" aria-label="Sections">
+      <a href="#top">Home</a>
+      <a href="#research">Research</a>
+      <a href="#service">Service</a>
+    </nav>
+  </header>
+
+  <main id="main-content" class="container">
+    <section class="profile" id="top" aria-labelledby="profile-name">
+      <img class="profile-pic" src="images/quantao.jpeg" width="200" height="200" alt="Portrait of Quantao Yang">
+      <div class="profile-intro">
+        <h1 id="profile-name">Quantao Yang</h1>
+        <p class="profile-email">yquantao at gmail dot com</p>
         <p>I am a postdoctoral researcher at <a href="https://www.kth.se/is/rpl/">KTH Royal Institute of Technology</a>, working with Prof. <a href="https://www.kth.se/profile/olovand/">Olov Andersson</a> and Prof. <a href="https://www.kth.se/profile/dani/">Danica Kragic</a>. I am also a founding member of Qualia Robotics. Previously, I worked as a research scientist at ABB Corporate Research in Sweden.</p>
         <p>I completed my PhD in Computer Science at <a href="https://www.oru.se/english/research/research-environments/ent/aass/">Örebro University</a>, advised by Prof. <a href="https://www.oru.se/english/employee/todor_stoyanov">Todor Stoyanov</a> and Prof. <a href="https://www.oru.se/english/employee/johannesandreas_stork/">Johannes A. Stork</a>. I was also a visiting PhD student at <a href="https://rpl.cs.utexas.edu/">UT Austin</a>, advised by Prof. <a href="https://yukezhu.me/">Yuke Zhu</a>.</p>
         <p>I am interested in developing intelligent robotic agents capable of learning and executing tasks across diverse real-world environments.</p>
-        <div class="profile-links" aria-label="Profile links">
-          <a href="mailto:yquantao@gmail.com">Email</a>
-          <a href="https://scholar.google.com/citations?user=8UrHg8AAAAAJ&amp;hl=en">Scholar</a>
-          <a href="https://github.com/yquantao">GitHub</a>
+        <p class="profile-links">
+          <a href="mailto:yquantao@gmail.com">Email</a> /
+          <a href="https://scholar.google.com/citations?user=8UrHg8AAAAAJ&amp;hl=en">Google Scholar</a> /
+          <a href="https://github.com/yquantao">GitHub</a> /
           <a href="https://x.com/Qt_Yeung">Twitter</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- Updates, in the same style as the reference site. To enable: uncomment, fill in, and add <a href="#updates">Updates</a> to the nav.
+    <section class="section" id="updates" aria-labelledby="updates-title">
+      <h2 id="updates-title">Updates</h2>
+      <ul class="plain-list">
+        <li><b>Mon YYYY</b> News item with a <a href="#">link</a>.</li>
+      </ul>
+    </section>
+    -->
+
+    <section class="section" id="research" aria-labelledby="research-title">
+      <h2 id="research-title">Research</h2>
+      <p class="section-note">Full publication list on <a href="https://scholar.google.com/citations?user=8UrHg8AAAAAJ&amp;hl=en">Google Scholar</a>.</p>
+
+      <article class="paper">
+        <a class="paper-thumb" href="https://s2-diffusion.github.io/" aria-label="S2-Diffusion project page"><img src="images/s2_diffusion.webp" width="960" height="624" alt="S2-Diffusion robot manipulation examples" fetchpriority="high"></a>
+        <div class="paper-info">
+          <h3><a href="https://s2-diffusion.github.io/">S<sup>2</sup>-Diffusion: Generalizing from Instance-level to Category-level Skills in Robot Manipulation</a></h3>
+          <p class="authors"><b>Quantao Yang</b>, Michael C. Welle, Danica Kragic, Olov Andersson</p>
+          <p class="venue">IEEE Robotics and Automation Letters (RA-L), 2025</p>
+          <p class="paper-links"><a href="https://s2-diffusion.github.io/">Website</a><a href="https://arxiv.org/abs/2502.09389/">arXiv</a></p>
         </div>
-      </div>
+      </article>
+
+      <article class="paper">
+        <a class="paper-thumb" href="https://diffusion-trajectory-guided-policy.github.io/" aria-label="Diffusion Trajectory-guided Policy project page"><img src="images/dtp.webp" width="960" height="372" alt="Diffusion Trajectory-guided Policy overview" loading="lazy"></a>
+        <div class="paper-info">
+          <h3><a href="https://diffusion-trajectory-guided-policy.github.io/">Diffusion Trajectory-guided Policy for Long-horizon Robot Manipulation</a></h3>
+          <p class="authors">Shichao Fan, <b>Quantao Yang</b>, Yajie Liu, Kun Wu, Zhengping Che, Qingjie Liu, Min Wan</p>
+          <p class="venue">IEEE Robotics and Automation Letters (RA-L), 2025</p>
+          <p class="paper-links"><a href="https://diffusion-trajectory-guided-policy.github.io/">Website</a><a href="https://arxiv.org/abs/2502.10040/">arXiv</a></p>
+        </div>
+      </article>
+
+      <article class="paper">
+        <a class="paper-thumb" href="https://www.finnbusch.com/OneMap/" aria-label="OneMap project page"><img src="images/onemap.webp" width="837" height="640" alt="OneMap open-vocabulary navigation visualization" loading="lazy"></a>
+        <div class="paper-info">
+          <h3><a href="https://www.finnbusch.com/OneMap/">One Map to Find Them All: Real-time Open-Vocabulary Mapping for Zero-shot Multi-Object Navigation</a></h3>
+          <p class="authors">Finn Busch, Timon Homberger, Jesús Ortega-Peimbert, <b>Quantao Yang</b>, Olov Andersson</p>
+          <p class="venue">IEEE International Conference on Robotics and Automation (ICRA), 2025</p>
+          <p class="paper-links"><a href="https://www.finnbusch.com/OneMap/">Website</a><a href="https://arxiv.org/abs/2409.11764/">arXiv</a><a href="https://github.com/KTH-RPL/OneMap/">Code</a></p>
+        </div>
+      </article>
+
+      <article class="paper">
+        <a class="paper-thumb" href="https://ut-austin-rpl.github.io/PRIME/" aria-label="PRIME project page"><img src="images/prime.webp" width="960" height="469" alt="PRIME robot manipulation tasks" loading="lazy"></a>
+        <div class="paper-info">
+          <h3><a href="https://ut-austin-rpl.github.io/PRIME/">PRIME: Scaffolding Manipulation Tasks with Behavior Primitives for Data-efficient Imitation Learning</a></h3>
+          <p class="authors">Tian Gao, Soroush Nasiriany, Huihan Liu, <b>Quantao Yang</b>, Yuke Zhu</p>
+          <p class="venue">IEEE Robotics and Automation Letters (RA-L), 2024</p>
+          <p class="paper-links"><a href="https://ut-austin-rpl.github.io/PRIME/">Website</a><a href="https://arxiv.org/abs/2403.00929/">arXiv</a><a href="https://github.com/UT-Austin-RPL/PRIME/">Code</a></p>
+        </div>
+      </article>
+
+      <article class="paper">
+        <div class="paper-thumb"><img src="images/LfR.webp" width="957" height="454" alt="Learn from Robot skill transfer overview" loading="lazy"></div>
+        <div class="paper-info">
+          <h3><a href="https://ieeexplore.ieee.org/abstract/document/10260484/">Learn from Robot: Transferring Skills for Diverse Manipulation via Cycle Generative Networks</a></h3>
+          <p class="authors"><b>Quantao Yang</b>, Johannes Andreas Stork, Todor Stoyanov</p>
+          <p class="venue">IEEE International Conference on Automation Science and Engineering (CASE), 2023</p>
+          <p class="paper-links"><a href="https://ieeexplore.ieee.org/abstract/document/10260484/">Paper</a></p>
+        </div>
+      </article>
+
+      <article class="paper">
+        <div class="paper-thumb"><img src="images/skill_policy.webp" width="923" height="451" alt="Variable impedance skill learning overview" loading="lazy"></div>
+        <div class="paper-info">
+          <h3><a href="https://ieeexplore.ieee.org/document/9812508/">Variable Impedance Skill Learning for Contact-rich Manipulation</a></h3>
+          <p class="authors"><b>Quantao Yang</b>, Alexander Dürr, Elin Anna Topp, Johannes Andreas Stork, Todor Stoyanov</p>
+          <p class="venue">IEEE Robotics and Automation Letters (RA-L), 2022</p>
+          <p class="paper-links"><a href="https://ieeexplore.ieee.org/document/9812508/">Paper</a></p>
+        </div>
+      </article>
+
+      <article class="paper">
+        <div class="paper-thumb"><img src="images/mpr_rl.webp" width="757" height="309" alt="MPR-RL reinforcement learning overview" loading="lazy"></div>
+        <div class="paper-info">
+          <h3><a href="https://ieeexplore.ieee.org/document/9803274/">MPR-RL: Multi-Prior Regularized Reinforcement Learning for Knowledge Transfer</a></h3>
+          <p class="authors"><b>Quantao Yang</b>, Johannes Andreas Stork, Todor Stoyanov</p>
+          <p class="venue">IEEE Robotics and Automation Letters (RA-L), 2022</p>
+          <p class="paper-links"><a href="https://ieeexplore.ieee.org/document/9803274/">Paper</a></p>
+        </div>
+      </article>
+
+      <article class="paper">
+        <div class="paper-thumb"><img src="images/null.webp" width="751" height="318" alt="Null-space reinforcement learning overview" loading="lazy"></div>
+        <div class="paper-info">
+          <h3><a href="https://ieeexplore.ieee.org/document/9568848/">Null Space Based Efficient Reinforcement Learning with Hierarchical Safety Constraints</a></h3>
+          <p class="authors"><b>Quantao Yang</b>, Johannes Andreas Stork, Todor Stoyanov</p>
+          <p class="venue">European Conference on Mobile Robots (ECMR), 2021</p>
+          <p class="paper-links"><a href="https://ieeexplore.ieee.org/document/9568848/">Paper</a></p>
+        </div>
+      </article>
     </section>
 
-    <section class="section container" id="publications" aria-labelledby="publications-title">
-      <div class="section-heading publication-heading">
-        <div><h2 id="publications-title">Research</h2></div>
-        <a class="all-publications" href="https://scholar.google.com/citations?user=8UrHg8AAAAAJ&amp;hl=en">All publications on Scholar <span aria-hidden="true">↗</span></a>
-      </div>
-      <div class="publication-list">
-        <article class="publication">
-          <a class="publication-media" href="https://s2-diffusion.github.io/" aria-label="S2-Diffusion project page"><img src="images/s2_diffusion.webp" width="960" height="624" alt="S2-Diffusion robot manipulation examples" fetchpriority="high"></a>
-          <div class="publication-copy"><p class="venue">IEEE Robotics and Automation Letters (RA-L), 2025</p><h3><a href="https://arxiv.org/abs/2502.09389/">S<sup>2</sup>-Diffusion: Generalizing from Instance-level to Category-level Skills in Robot Manipulation</a></h3><p class="authors"><strong>Quantao Yang</strong>, Michael C. Welle, Danica Kragic, Olov Andersson</p><div class="paper-links"><a href="https://s2-diffusion.github.io/">Project</a><a href="https://arxiv.org/abs/2502.09389/">Paper</a></div></div>
-        </article>
-        <article class="publication">
-          <a class="publication-media" href="https://diffusion-trajectory-guided-policy.github.io/" aria-label="Diffusion Trajectory-guided Policy project page"><img src="images/dtp.webp" width="960" height="372" alt="Diffusion Trajectory-guided Policy overview" loading="lazy"></a>
-          <div class="publication-copy"><p class="venue">IEEE Robotics and Automation Letters (RA-L), 2025</p><h3><a href="https://arxiv.org/abs/2502.10040/">Diffusion Trajectory-guided Policy for Long-horizon Robot Manipulation</a></h3><p class="authors">Shichao Fan, <strong>Quantao Yang</strong>, Yajie Liu, Kun Wu, Zhengping Che, Qingjie Liu, Min Wan</p><div class="paper-links"><a href="https://diffusion-trajectory-guided-policy.github.io/">Project</a><a href="https://arxiv.org/abs/2502.10040/">Paper</a></div></div>
-        </article>
-        <article class="publication">
-          <a class="publication-media" href="https://www.finnbusch.com/OneMap/" aria-label="OneMap project page"><img src="images/onemap.webp" width="837" height="640" alt="OneMap open-vocabulary navigation visualization" loading="lazy"></a>
-          <div class="publication-copy"><p class="venue">IEEE International Conference on Robotics and Automation (ICRA), 2025</p><h3><a href="https://www.finnbusch.com/OneMap/">One Map to Find Them All: Real-time Open-Vocabulary Mapping for Zero-shot Multi-Object Navigation</a></h3><p class="authors">Finn Busch, Timon Homberger, Jesús Ortega-Peimbert, <strong>Quantao Yang</strong>, Olov Andersson</p><div class="paper-links"><a href="https://www.finnbusch.com/OneMap/">Project</a><a href="https://arxiv.org/abs/2409.11764/">Paper</a><a href="https://github.com/KTH-RPL/OneMap/">Code</a></div></div>
-        </article>
-        <article class="publication">
-          <a class="publication-media" href="https://ut-austin-rpl.github.io/PRIME/" aria-label="PRIME project page"><img src="images/prime.webp" width="960" height="469" alt="PRIME robot manipulation tasks" loading="lazy"></a>
-          <div class="publication-copy"><p class="venue">IEEE Robotics and Automation Letters (RA-L), 2024</p><h3><a href="https://ut-austin-rpl.github.io/PRIME/">PRIME: Scaffolding Manipulation Tasks with Behavior Primitives for Data-efficient Imitation Learning</a></h3><p class="authors">Tian Gao, Soroush Nasiriany, Huihan Liu, <strong>Quantao Yang</strong>, Yuke Zhu</p><div class="paper-links"><a href="https://ut-austin-rpl.github.io/PRIME/">Project</a><a href="https://arxiv.org/abs/2403.00929/">Paper</a><a href="https://github.com/UT-Austin-RPL/PRIME/">Code</a></div></div>
-        </article>
-        <article class="publication">
-          <div class="publication-media"><img src="images/LfR.webp" width="957" height="454" alt="Learn from Robot skill transfer overview" loading="lazy"></div>
-          <div class="publication-copy"><p class="venue">IEEE International Conference on Automation Science and Engineering (CASE), 2023</p><h3><a href="https://ieeexplore.ieee.org/abstract/document/10260484/">Learn from Robot: Transferring Skills for Diverse Manipulation via Cycle Generative Networks</a></h3><p class="authors"><strong>Quantao Yang</strong>, Johannes Andreas Stork, Todor Stoyanov</p><div class="paper-links"><a href="https://ieeexplore.ieee.org/abstract/document/10260484/">Paper</a></div></div>
-        </article>
-        <article class="publication">
-          <div class="publication-media"><img src="images/skill_policy.webp" width="923" height="451" alt="Variable impedance skill learning overview" loading="lazy"></div>
-          <div class="publication-copy"><p class="venue">IEEE Robotics and Automation Letters (RA-L), 2022</p><h3><a href="https://ieeexplore.ieee.org/document/9812508/">Variable Impedance Skill Learning for Contact-rich Manipulation</a></h3><p class="authors"><strong>Quantao Yang</strong>, Alexander Dürr, Elin Anna Topp, Johannes Andreas Stork, Todor Stoyanov</p><div class="paper-links"><a href="https://ieeexplore.ieee.org/document/9812508/">Paper</a></div></div>
-        </article>
-        <article class="publication">
-          <div class="publication-media"><img src="images/mpr_rl.webp" width="757" height="309" alt="MPR-RL reinforcement learning overview" loading="lazy"></div>
-          <div class="publication-copy"><p class="venue">IEEE Robotics and Automation Letters (RA-L), 2022</p><h3><a href="https://ieeexplore.ieee.org/document/9803274/">MPR-RL: Multi-Prior Regularized Reinforcement Learning for Knowledge Transfer</a></h3><p class="authors"><strong>Quantao Yang</strong>, Johannes Andreas Stork, Todor Stoyanov</p><div class="paper-links"><a href="https://ieeexplore.ieee.org/document/9803274/">Paper</a></div></div>
-        </article>
-        <article class="publication">
-          <div class="publication-media"><img src="images/null.webp" width="751" height="318" alt="Null-space reinforcement learning overview" loading="lazy"></div>
-          <div class="publication-copy"><p class="venue">European Conference on Mobile Robots (ECMR), 2021</p><h3><a href="https://ieeexplore.ieee.org/document/9568848/">Null Space Based Efficient Reinforcement Learning with Hierarchical Safety Constraints</a></h3><p class="authors"><strong>Quantao Yang</strong>, Johannes Andreas Stork, Todor Stoyanov</p><div class="paper-links"><a href="https://ieeexplore.ieee.org/document/9568848/">Paper</a></div></div>
-        </article>
-      </div>
-    </section>
-
-    <section class="section container service" id="service" aria-labelledby="service-title">
-      <div class="section-heading"><h2 id="service-title">Academic service</h2></div>
-      <div class="service-copy"><p>I review for leading robotics journals and conferences.</p><ul aria-label="Review venues"><li>RA-L</li><li>T-Mech</li><li>RSS</li><li>ICRA</li><li>IROS</li><li>CoRL</li></ul></div>
+    <section class="section" id="service" aria-labelledby="service-title">
+      <h2 id="service-title">Academic Service</h2>
+      <p>I review for leading robotics journals and conferences.</p>
+      <ul class="plain-list">
+        <li><b>Journals</b> RA-L, T-Mech</li>
+        <li><b>Conferences</b> RSS, ICRA, IROS, CoRL</li>
+      </ul>
     </section>
   </main>
-  <footer class="site-footer"><div class="container footer-inner"><p>© <span id="year">2026</span> Quantao Yang</p><p>Original template by <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron</a>.</p></div></footer>
+
+  <footer class="site-footer container">
+    <p>© <span id="year">2026</span> Quantao Yang · Design inspired by <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron</a>.</p>
+  </footer>
   <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
