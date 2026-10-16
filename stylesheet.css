@@ -129,17 +129,11 @@ sup {
 }
 
 .profile-intro h1 {
-  margin: 0 0 10px;
+  margin: 0 0 24px;
   color: var(--navy);
   font-size: 3em;
   font-weight: 400;
   line-height: 1;
-  text-align: center;
-}
-
-.profile-intro .profile-email {
-  margin-bottom: 20px;
-  color: var(--navy);
   text-align: center;
 }
 
